@@ -1320,7 +1320,7 @@ These updates enhance the plugin's compatibility with different AWS CodeDeploy c
 ## 1.10
 * improve S3 download logging #JENKINS-44903
 * change RoleSessionName to include job name and build number
-* add the ability to use a URL in cfnValidate
+
 
 ## 1.9
 * add support for create stack timeout
@@ -1343,7 +1343,7 @@ These updates enhance the plugin's compatibility with different AWS CodeDeploy c
 ## 1.5
 * add cfnExports step
 * add cfnValidate step
-* change how s3Upload works to use the aws client to guess the correct content type for the file.
+* change how s3Upload works to use  aws client to guess the correct content type for the file.
 
 ## 1.4
 * add empty checks for mandatory strings
@@ -1351,7 +1351,7 @@ These updates enhance the plugin's compatibility with different AWS CodeDeploy c
 * add support for CloudFormation stack tags
 
 ## 1.3
-* add support for publishing messages to SNS
+* add support  for publishing messages to SNS
 * fail step on errors during CloudFormation actions
 
 ## 1.2
